@@ -71,3 +71,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # electrip-appointment-scheduler
 This is a barebones version of an appointment scheduler website for electrip.
 >>>>>>> 5e01121faa606edf4921eb16706ee3bd3ed6c4dd
+# electrip-appointment-scheduling

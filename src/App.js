@@ -13,10 +13,10 @@ function App() {
     <Router >
       <div className = "container" >
         <Navbar />
-        <Route path = "/" exact component = {ExerciseList} />
-        <Route path = "/edit/:id" exact component = {EditExercise} />
-        <Route path = "/create" exact component = {CreateExercise} />
-        <Route path = "/user" exact component = {CreateUser} />
+        <Route path = "/electrip-sched/" exact component = {ExerciseList} />
+        <Route path = "/electrip-sched/edit/:id" exact component = {EditExercise} />
+        <Route path = "/electrip-sched/create" exact component = {CreateExercise} />
+        <Route path = "/electrip-sched/user" exact component = {CreateUser} />
       </div>
     </Router>
   );

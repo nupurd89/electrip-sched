@@ -11,16 +11,23 @@ import CreateUser from "./components/create-user.component";
 import UserList from "./components/user-list.component";
 
 function App() {
+
+
   return (
     <Router >
       <div className = "container" >
         <Navbar />
         <Route path = "/electrip-sched/" exact component = {ExerciseList} />
         <Route path = "/electrip-sched/edit/:id" exact component = {EditExercise} />
+<<<<<<< HEAD
         <Route path = "/electrip-sched/edituser/:id" exact component = {EditUser} />
         <Route path = "/electrip-sched/create" exact component = {CreateExercise} />
         <Route path = "/electrip-sched/user" exact component = {CreateUser} />
         <Route path = "/electrip-sched/userlist" exact component = {UserList} />
+=======
+        <Route path = "/electrip-sched/create" exact component = {CreateExercise} />
+        <Route path = "/electrip-sched/user" exact component = {CreateUser} />
+>>>>>>> fe845ec7fe66300d9e21328f9d78b29691781d8a
       </div>
     </Router>
   );

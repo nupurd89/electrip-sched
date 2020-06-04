@@ -17,9 +17,12 @@ export default class Navbar extends Component {
           </li>
           <li className="navbar-item">
           <Link to="/electrip-sched/user" className="nav-link">Create User</Link>
+<<<<<<< HEAD
           </li>
           <li className="navbar-item">
           <Link to="/electrip-sched/userlist" className="nav-link">User List</Link>
+=======
+>>>>>>> fe845ec7fe66300d9e21328f9d78b29691781d8a
           </li>
         </ul>
         </div>
